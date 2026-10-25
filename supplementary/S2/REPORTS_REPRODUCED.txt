@@ -1,0 +1,27 @@
+$ python /mnt/data/tcr_submission_resources_work/resource2/local_input/report_table3.py /mnt/data/tcr_submission_resources_work/resource2/local_input/results.csv
+         graphs  eps=1e-05  eps=0.001  eps=0.01
+n   s0                                         
+150 0.6      12       95.6       90.2      86.3
+    0.8      12       99.9       97.0      92.8
+500 0.6      10       94.1       91.6      87.3
+    0.8      10       95.8       90.5      85.3
+
+
+$ python /mnt/data/tcr_submission_resources_work/resource2/noise_aware/report_table6.py /mnt/data/tcr_submission_resources_work/resource2/noise_aware/tcr_noise_pilot_results.csv
+    architecture stable_seeds  rho_min  rho_max  eps=1e-06  eps=0.0001  eps=0.01
+           Graph        20/20    0.800    0.800     17.298      13.066     6.420
+Temperature 0.02        20/20    0.783    0.831     17.567      12.918     6.330
+Temperature 0.08        20/20    0.747    0.887     18.387      13.083     6.334
+Temperature 0.15        20/20    0.742    0.897     18.347      12.922     6.259
+Temperature 0.53        19/20    0.765    0.970     18.554      13.117     6.263
+ Temperature 3.5        20/20    0.775    0.934     19.696      13.601     6.338
+        gaussian        20/20    0.800    0.904     20.205      14.097     6.662
+           cycle        20/20    0.800    0.800     28.105      18.161     8.254
+
+   eps                contrast  pairs  mean  ci_low  ci_high
+ 1e-06 Temperature 3.5 - Graph     20  2.40    0.95     3.84
+ 1e-06           cycle - Graph     20 10.81    9.52    12.09
+0.0001 Temperature 3.5 - Graph     20  0.53   -0.29     1.36
+0.0001           cycle - Graph     20  5.09    4.45     5.74
+  0.01 Temperature 3.5 - Graph     20 -0.08   -0.42     0.26
+  0.01           cycle - Graph     20  1.83    1.61     2.05

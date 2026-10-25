@@ -1,0 +1,51 @@
+{
+  "N": [
+    60,
+    150
+  ],
+  "seeds": [
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519
+  ],
+  "s0": [
+    0.6,
+    0.8
+  ],
+  "svd_rtol": [
+    1e-09,
+    1e-11
+  ],
+  "gain": 0.15,
+  "nsamples": [
+    450,
+    3200,
+    1600
+  ],
+  "maxlag": "min(2*N,180)",
+  "zero_lag_included": true,
+  "architecture": "same frozen scores/signs and inputs as v2 500-519; all arms same RMS normalization",
+  "notes": [
+    "no noise",
+    "unregularized truncated SVD",
+    "no retuning",
+    "N=150 lagmax=180 > N"
+  ]
+}

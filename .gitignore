@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Release ZIPs are uploaded as GitHub release assets
+release-assets/
+.git/
+.mypy_cache/
+*.py[cod]

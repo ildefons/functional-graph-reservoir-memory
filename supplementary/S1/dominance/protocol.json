@@ -1,0 +1,26 @@
+{
+  "n_list": [
+    60,
+    150,
+    500
+  ],
+  "temperatures": [
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1,
+    0.15,
+    0.25,
+    0.53,
+    1.0,
+    3.5
+  ],
+  "seeds": 100,
+  "seed_rule": "3320923 + N*100003 + seed",
+  "input_scores": "i.i.d. standard Gaussian, no self-loops",
+  "dominance_threshold": 0.9,
+  "full_row_calculation": "scipy.special.softmax",
+  "top_two_formula": "1/(1+exp(-gap/tau))",
+  "status": "diagnostic post-hoc study, not confirmatory prediction experiment"
+}

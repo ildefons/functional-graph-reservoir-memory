@@ -1,0 +1,7 @@
+eps,contrast,pairs,mean,ci_low,ci_high
+1e-06,Temperature 3.5 - Graph,20,2.3981,0.9544,3.8418
+1e-06,cycle - Graph,20,10.8065,9.525,12.0881
+0.0001,Temperature 3.5 - Graph,20,0.5346,-0.2892,1.3584
+0.0001,cycle - Graph,20,5.0944,4.4536,5.7352
+0.01,Temperature 3.5 - Graph,20,-0.0816,-0.4205,0.2572
+0.01,cycle - Graph,20,1.8343,1.6149,2.0538

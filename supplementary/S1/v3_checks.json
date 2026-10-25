@@ -1,0 +1,18 @@
+{
+  "v2_repeat_n": 560,
+  "max_absolute_v2_positive_lag_reproduction_error": 2.833402845681121e-09,
+  "s0_0p8_max_spectral_radius": 0.977671344143963,
+  "s0_0p8_unique_reservoirs": 280,
+  "seed_ids_memory": [
+    500,
+    519
+  ],
+  "seed_ids_baselines": [
+    400,
+    419
+  ],
+  "linear_narma_mean": 0.3985138428854863,
+  "fresh_seed_narma_tcr_mean": 0.3991812148696973,
+  "latex_pages": 14,
+  "availability": "supplementary attachment, not yet a GitHub release"
+}

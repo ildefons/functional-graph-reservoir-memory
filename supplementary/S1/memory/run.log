@@ -1,0 +1,69 @@
+completed N=60 seed=500 elapsed=2.24s
+completed N=60 seed=501 elapsed=3.55s
+completed N=60 seed=502 elapsed=4.99s
+completed N=60 seed=503 elapsed=6.50s
+completed N=60 seed=504 elapsed=7.88s
+completed N=60 seed=505 elapsed=9.27s
+completed N=60 seed=506 elapsed=11.03s
+completed N=60 seed=507 elapsed=12.72s
+completed N=60 seed=508 elapsed=14.00s
+completed N=60 seed=509 elapsed=15.42s
+completed N=60 seed=510 elapsed=16.69s
+completed N=60 seed=511 elapsed=17.95s
+completed N=60 seed=512 elapsed=19.19s
+completed N=60 seed=513 elapsed=20.44s
+completed N=60 seed=514 elapsed=21.72s
+completed N=60 seed=515 elapsed=23.03s
+completed N=60 seed=516 elapsed=24.30s
+completed N=60 seed=517 elapsed=25.57s
+completed N=60 seed=518 elapsed=26.86s
+completed N=60 seed=519 elapsed=28.23s
+completed N=150 seed=500 elapsed=33.67s
+completed N=150 seed=501 elapsed=39.61s
+completed N=150 seed=502 elapsed=44.72s
+completed N=150 seed=503 elapsed=49.86s
+completed N=150 seed=504 elapsed=54.90s
+completed N=150 seed=505 elapsed=59.93s
+completed N=150 seed=506 elapsed=65.77s
+completed N=150 seed=507 elapsed=70.99s
+completed N=150 seed=508 elapsed=76.80s
+completed N=150 seed=509 elapsed=82.30s
+completed N=150 seed=510 elapsed=87.96s
+completed N=150 seed=511 elapsed=93.54s
+completed N=150 seed=512 elapsed=98.69s
+completed N=150 seed=513 elapsed=103.73s
+completed N=150 seed=514 elapsed=108.90s
+completed N=150 seed=515 elapsed=113.95s
+completed N=150 seed=516 elapsed=118.98s
+completed N=150 seed=517 elapsed=124.29s
+completed N=150 seed=518 elapsed=129.64s
+completed N=150 seed=519 elapsed=135.18s
+  N  s0 dynamics      arm     svd_rtol  mc_lag0  mc_positive  mc_total    mc_sd  delay10  num_rank  graph_degree  mean_spectral
+ 60 0.6   linear    cycle 1.000000e-09      1.0    39.170319 40.170319 0.375527 1.000000     40.15           NaN       0.600000
+ 60 0.6   linear gaussian 1.000000e-09      1.0    29.511151 30.511151 0.608455 1.000000     30.50           NaN       0.638361
+ 60 0.6   linear tau=0.08 1.000000e-09      1.0    26.284089 27.284089 2.328289 1.000000     27.25           NaN       0.633347
+ 60 0.6   linear tau=0.15 1.000000e-09      1.0    26.978143 27.978143 1.788018 1.000000     27.95           NaN       0.638537
+ 60 0.6   linear tau=0.53 1.000000e-09      1.0    28.025481 29.025481 1.167792 1.000000     29.00           NaN       0.635103
+ 60 0.6   linear  tau=3.5 1.000000e-09      1.0    30.017494 31.017494 0.731107 1.000000     31.00           NaN       0.629020
+ 60 0.6   linear tau=zero 1.000000e-09      1.0    18.345614 19.345614 4.236468 0.998993     19.30          19.5       0.600000
+ 60 0.8   linear    cycle 1.000000e-09      1.0    59.030873 60.030873 0.025435 1.000000     60.00           NaN       0.800000
+ 60 0.8   linear gaussian 1.000000e-09      1.0    41.392222 42.392222 0.744441 1.000000     42.50           NaN       0.851148
+ 60 0.8   linear tau=0.08 1.000000e-09      1.0    32.016081 33.016081 3.038707 1.000000     33.05           NaN       0.844463
+ 60 0.8   linear tau=0.15 1.000000e-09      1.0    34.766227 35.766227 2.617893 1.000000     35.85           NaN       0.851383
+ 60 0.8   linear tau=0.53 1.000000e-09      1.0    38.202186 39.202186 1.503720 1.000000     39.30           NaN       0.846804
+ 60 0.8   linear  tau=3.5 1.000000e-09      1.0    42.259059 43.259059 0.917253 1.000000     43.35           NaN       0.838693
+ 60 0.8   linear tau=zero 1.000000e-09      1.0    18.476120 19.476120 4.394524 0.982274     19.45          19.5       0.800000
+150 0.6   linear    cycle 1.000000e-09      1.0    40.060041 41.060041 0.033563 1.000000     41.00           NaN       0.600000
+150 0.6   linear gaussian 1.000000e-09      1.0    35.230317 36.230317 0.610020 1.000000     36.20           NaN       0.621301
+150 0.6   linear tau=0.08 1.000000e-09      1.0    33.649845 34.649845 1.386158 1.000000     34.60           NaN       0.623132
+150 0.6   linear tau=0.15 1.000000e-09      1.0    33.554981 34.554981 1.718137 1.000000     34.50           NaN       0.626428
+150 0.6   linear tau=0.53 1.000000e-09      1.0    33.155143 34.155143 1.368610 1.000000     34.10           NaN       0.613256
+150 0.6   linear  tau=3.5 1.000000e-09      1.0    35.409944 36.409944 0.587738 1.000000     36.35           NaN       0.629008
+150 0.6   linear tau=zero 1.000000e-09      1.0    29.043463 30.043463 3.831543 1.000000     30.00          31.3       0.600000
+150 0.8   linear    cycle 1.000000e-09      1.0    90.943281 91.943281 0.248633 1.000000     91.95           NaN       0.800000
+150 0.8   linear gaussian 1.000000e-09      1.0    59.304476 60.304476 0.770368 1.000000     60.45           NaN       0.828401
+150 0.8   linear tau=0.08 1.000000e-09      1.0    50.780257 51.780257 2.966081 1.000000     51.85           NaN       0.830843
+150 0.8   linear tau=0.15 1.000000e-09      1.0    52.215484 53.215484 2.959649 1.000000     53.30           NaN       0.835237
+150 0.8   linear tau=0.53 1.000000e-09      1.0    52.492454 53.492454 2.790335 1.000000     53.55           NaN       0.817674
+150 0.8   linear  tau=3.5 1.000000e-09      1.0    59.593505 60.593505 0.752946 1.000000     60.65           NaN       0.838677
+150 0.8   linear tau=zero 1.000000e-09      1.0    29.971397 30.971397 4.398494 1.000000     31.00          31.3       0.800000
